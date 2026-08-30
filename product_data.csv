@@ -1,0 +1,12 @@
+ProductID,ProductName,ProductCategory,UnitPrice,Brand
+P001,Smartphone,Electronics,75.00,TechBrand
+P002,Casual Shirt,Clothing,45.00,FashionCo
+P003,Home Decor Set,Home,40.00,HomeStyle
+P004,Laptop,Electronics,100.00,TechBrand
+P005,Designer Jacket,Clothing,85.00,FashionCo
+P006,Best Seller Book,Books,35.00,ReadWell
+P007,Smart Home Device,Home,90.00,HomeStyle
+P008,Premium Jeans,Clothing,95.00,FashionCo
+P009,Self-Help Book,Books,55.00,ReadWell
+P010,Kitchen Appliance,Home,120.00,HomeStyle
+P011,Sports Shoes,Clothing,95.00,SportMax

@@ -1,0 +1,51 @@
+CustomerID,Age,Gender,Income,Education,MaritalStatus,Children,City,CustomerSince,YearsAsCustomer
+C001,25,Female,45000,Bachelor,Single,0,New York,2019-01-15,5.5
+C002,34,Male,62000,Master,Married,1,Los Angeles,2018-06-20,6.2
+C003,45,Female,85000,PhD,Married,2,Chicago,2017-03-10,7.5
+C004,28,Male,52000,Bachelor,Single,0,Houston,2020-08-05,4.1
+C005,52,Male,95000,Master,Divorced,3,Phoenix,2016-11-22,7.9
+C006,31,Female,58000,Bachelor,Married,1,Philadelphia,2019-04-18,5.4
+C007,39,Male,72000,Master,Married,2,San Antonio,2018-09-12,5.9
+C008,27,Female,49000,Bachelor,Single,0,San Diego,2020-02-28,4.5
+C009,48,Female,88000,PhD,Married,2,Dallas,2016-07-15,8.1
+C010,35,Male,68000,Master,Single,0,San Jose,2019-11-30,4.7
+C011,42,Female,78000,Master,Married,2,Austin,2017-12-08,6.8
+C012,29,Male,55000,Bachelor,Single,0,Jacksonville,2020-05-22,4.3
+C013,46,Female,82000,PhD,Divorced,1,Fort Worth,2017-01-19,7.6
+C014,33,Male,65000,Master,Married,1,Columbus,2018-10-14,5.8
+C015,26,Female,47000,Bachelor,Single,0,Charlotte,2020-06-17,4.2
+C016,51,Male,92000,Master,Married,3,San Francisco,2016-04-25,8.4
+C017,38,Female,71000,Master,Married,2,Indianapolis,2018-02-11,6.6
+C018,30,Male,56000,Bachelor,Single,0,Seattle,2019-07-08,5.1
+C019,44,Female,79000,PhD,Married,2,Denver,2017-08-30,7.0
+C020,32,Male,63000,Master,Single,0,Boston,2019-09-22,5.0
+C021,40,Female,76000,Master,Married,2,Washington,2017-05-14,7.3
+C022,28,Male,51000,Bachelor,Single,0,Nashville,2020-03-19,4.4
+C023,49,Female,89000,PhD,Divorced,2,Detroit,2016-09-03,8.0
+C024,36,Male,69000,Master,Married,1,Portland,2018-12-01,5.7
+C025,24,Female,43000,Bachelor,Single,0,Las Vegas,2020-11-07,3.9
+C026,45,Male,86000,Master,Married,2,Milwaukee,2017-02-28,7.4
+C027,33,Female,61000,Bachelor,Married,1,Atlanta,2019-05-09,5.3
+C028,41,Male,77000,Master,Married,2,Oklahoma City,2017-10-17,6.9
+C029,29,Male,54000,Bachelor,Single,0,Albuquerque,2020-04-12,4.4
+C030,50,Female,94000,PhD,Divorced,3,Tucson,2016-06-11,8.3
+C031,37,Male,70000,Master,Married,2,Fresno,2018-01-23,6.7
+C032,26,Female,48000,Bachelor,Single,0,Sacramento,2020-07-25,4.1
+C033,43,Female,80000,PhD,Married,2,Kansas City,2017-04-08,7.1
+C034,31,Male,59000,Master,Single,0,Mesa,2019-08-16,5.2
+C035,47,Male,87000,Master,Divorced,2,Omaha,2016-12-20,7.8
+C036,27,Female,50000,Bachelor,Single,0,Raleigh,2020-01-31,4.5
+C037,35,Male,66000,Master,Married,1,Miami,2018-11-05,5.9
+C038,42,Female,75000,Master,Married,2,Long Beach,2017-07-19,7.2
+C039,30,Male,57000,Bachelor,Single,0,Virginia Beach,2019-10-09,5.0
+C040,48,Female,91000,PhD,Married,3,Oakland,2016-08-27,8.0
+C041,34,Female,64000,Master,Married,1,Minneapolis,2018-03-14,6.5
+C042,28,Male,53000,Bachelor,Single,0,Tulsa,2020-02-06,4.5
+C043,44,Male,83000,Master,Divorced,2,Arlington,2017-06-23,7.3
+C044,31,Female,60000,Bachelor,Married,1,New Orleans,2019-04-02,5.4
+C045,39,Male,73000,Master,Married,2,Wichita,2018-08-11,6.0
+C046,26,Female,46000,Bachelor,Single,0,Cleveland,2020-09-18,4.0
+C047,52,Female,96000,PhD,Divorced,3,Tampa,2016-02-14,8.6
+C048,33,Male,67000,Master,Married,1,Bakersfield,2018-07-25,6.1
+C049,29,Female,52000,Bachelor,Single,0,Aurora,2020-05-30,4.3
+C050,45,Male,84000,Master,Married,2,Anaheim,2017-01-05,7.6
