@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Customer Segmentation</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial;background:#f5f6fa;color:#222}
+.page{display:none;min-height:100vh}.page.active{display:block}
+#home{background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;text-align:center;padding:80px 20px}
+h1{font-size:42px;margin:20px 0}.homep{font-size:20px;margin-bottom:40px}
+button{border:0;cursor:pointer;font-weight:700;border-radius:28px;padding:15px 24px;font-size:16px}
+.homebtn{margin:10px;box-shadow:0 8px 20px #0003}.pbi{background:#f2c811}.ana{background:#38ef7d}.ins{background:#ff6a00;color:#fff}
+header{padding:25px;text-align:center}.pbih{background:#f2c811}.anah{background:linear-gradient(135deg,#11998e,#38ef7d);color:#fff}.insh{background:linear-gradient(135deg,#ee0979,#ff6a00);color:#fff}
+.back{background:#222;color:#fff}
+.content{max-width:1100px;margin:auto;padding:30px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:18px;min-height:250px;box-shadow:0 3px 12px #0001}
+.metric{height:190px;display:flex;flex-direction:column;justify-content:center}.value{font-size:30px;margin-top:5px}
+.bars{display:flex;flex-direction:column;gap:8px;margin-top:15px}.row{display:flex;align-items:center;gap:8px}.label{width:50px;font-size:12px}.bar{height:5px;background:#d33b3b}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.stat{background:#fff;padding:20px;text-align:center;border-radius:10px;box-shadow:0 3px 12px #0001}.stat b{display:block;font-size:24px;color:#11998e;margin-bottom:5px}
+.section{margin-bottom:20px}.section h3{color:#11998e}.section li{margin:10px 0;line-height:1.5}
+.insight{background:#fff5f5;padding:25px;border-radius:12px;margin-bottom:20px;box-shadow:0 3px 12px #0001}.insight h3{color:#ee0979}.highlight{background:#fff;border-left:5px solid #ee0979;padding:16px;margin-bottom:15px}
+@media(max-width:700px){.grid,.stats{grid-template-columns:1fr}h1{font-size:30px}}
+</style>
+</head>
+<body>
+
+<section id="home" class="page active">
+<h1>🎯 Customer Segmentation Dashboard</h1>
+<p class="homep">Advanced Business Intelligence & Customer Analytics</p>
+<button class="homebtn pbi" onclick="show('pbi')">📊 Open Power BI Live</button>
+<button class="homebtn ana" onclick="show('analytics')">📈 Detailed Analytics</button>
+<button class="homebtn ins" onclick="show('insights')">💡 Business Insights</button>
+</section>
+
+<section id="pbi" class="page">
+<header class="pbih"><h2>📊 Power BI Live Dashboard</h2><button class="back" onclick="show('home')">← Back to Dashboard</button></header>
+<main class="content"><div class="grid">
+<div class="card"><b>Count of CustomerID</b><small>by Age</small><div class="bars">
+<div class="row"><span class="label">50</span><div class="bar" style="width:70%"></div></div>
+<div class="row"><span class="label">45</span><div class="bar" style="width:50%"></div></div>
+<div class="row"><span class="label">40</span><div class="bar" style="width:70%"></div></div>
+<div class="row"><span class="label">35</span><div class="bar" style="width:50%"></div></div>
+<div class="row"><span class="label">30</span><div class="bar" style="width:95%"></div></div>
+<div class="row"><span class="label">25</span><div class="bar" style="width:70%"></div></div>
+</div></div>
+<div class="card"><div class="metric">Sum of Amount<div class="value">19K</div></div></div>
+<div class="card"><div class="metric">Count of CustomerID<div class="value">50</div></div></div>
+<div class="card"><b>Count of CustomerID</b><small>by Age</small><div class="bars">
+<div class="row"><span class="label">20</span><div class="bar" style="width:25%"></div></div>
+<div class="row"><span class="label">25</span><div class="bar" style="width:70%"></div></div>
+<div class="row"><span class="label">30</span><div class="bar" style="width:90%"></div></div>
+<div class="row"><span class="label">35</span><div class="bar" style="width:45%"></div></div>
+<div class="row"><span class="label">40</span><div class="bar" style="width:65%"></div></div>
+<div class="row"><span class="label">45</span><div class="bar" style="width:90%"></div></div>
+<div class="row"><span class="label">50</span><div class="bar" style="width:65%"></div></div>
+</div></div>
+</div></main>
+</section>
+
+<section id="analytics" class="page">
+<header class="anah"><h2>📈 Detailed Analytics</h2><p>Comprehensive Customer Segmentation Analysis</p><button class="back" onclick="show('home')">← Back to Dashboard</button></header>
+<main class="content">
+<div class="card section"><h3>📊 Dashboard Overview</h3><div class="stats">
+<div class="stat"><b>₹15.8L</b>Total Revenue</div><div class="stat"><b>50</b>Total Customers</div><div class="stat"><b>137</b>Transactions</div><div class="stat"><b>₹11,540</b>Avg Order Value</div>
+</div></div>
+<div class="card section"><h3>👥 Customer Demographics</h3><ul><li>50 customers across 10 major Indian cities.</li><li>Average customer tenure: 5.8 years.</li><li>Education: Bachelor 40%, Master 45%, PhD 15%.</li><li>Income: Low 20%, Medium 50%, High 30%.</li></ul></div>
+<div class="card section"><h3>🛒 Transaction Analysis</h3><ul><li>137 transactions in Q1 2024.</li><li>Total revenue: ₹15.8 Lakhs.</li><li>Average order value: ₹11,540.</li><li>Electronics 45%, Home 30%, Clothing 15%, Books 10%.</li></ul></div>
+</main>
+</section>
+
+<section id="insights" class="page">
+<header class="insh"><h2>💡 Business Insights</h2><p>Strategic Recommendations and Growth Opportunities</p><button class="back" onclick="show('home')">← Back to Dashboard</button></header>
+<main class="content">
+<div class="insight"><h3>🎯 Strategic Recommendations</h3><div class="highlight"><b>Focus on Age 25-35 Segment:</b> This is the primary target for marketing efforts.</div><ul><li>Expand Electronics and Home inventory.</li><li>Use loyalty programs and cashback offers.</li><li>Run targeted age-specific campaigns.</li></ul></div>
+<div class="insight"><h3>⭐ Customer Retention</h3><ul><li>Prioritize high-value customers.</li><li>Run re-engagement campaigns.</li><li>Use personalized communication.</li><li>Celebrate customer milestones.</li></ul></div>
+<div class="insight"><h3>📈 Revenue Growth</h3><ul><li>Increase average order value through upselling.</li><li>Cross-sell Electronics and Home products.</li><li>Expand into Tier-2 cities.</li></ul></div>
+</main>
+</section>
+
+<script>
+function show(id){
+ document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+ document.getElementById(id).classList.add('active');
+ window.scrollTo(0,0);
+}
+</script>
+</body>
+</html>

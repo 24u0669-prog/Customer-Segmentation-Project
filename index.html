@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Segmentation</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; font-family: "Segoe UI", Arial, sans-serif; background: linear-gradient(135deg, #667eea, #764ba2); color: #fff; display: grid; place-items: center; }
+    main { width: min(760px, calc(100% - 40px)); padding: 56px 28px; text-align: center; }
+    h1 { margin: 0 0 12px; font-size: clamp(2rem, 5vw, 3.25rem); }
+    p { margin: 0 0 34px; font-size: 1.15rem; opacity: .92; }
+    nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 16px; }
+    a { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-width: 205px; padding: 15px 22px; border-radius: 999px; color: #202020; background: #f2c811; text-decoration: none; font-weight: 700; font-size: 1rem; box-shadow: 0 9px 20px rgba(0,0,0,.22); transition: transform .2s, box-shadow .2s; }
+    a:hover, a:focus-visible { transform: translateY(-3px); box-shadow: 0 14px 27px rgba(0,0,0,.32); }
+    .analytics { color: #fff; background: linear-gradient(135deg, #11998e, #38ef7d); }
+    .insights { color: #fff; background: linear-gradient(135deg, #ee0979, #ff6a00); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>🎯 Customer Segmentation Dashboard</h1>
+    <p>Advanced business intelligence at a glance.</p>
+    <nav aria-label="Dashboard pages">
+      <a href="live-dashboard.html">📊 Open Power BI Live</a>
+      <a class="analytics" href="analytics.html">📈 Detailed Analytics</a>
+      <a class="insights" href="insights.html">💡 Business Insights</a>
+    </nav>
+  </main>
+</body>
+</html>
